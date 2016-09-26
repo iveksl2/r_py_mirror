@@ -1,1 +1,1 @@
-library(testthat) vs python testing suite identical examples?
+library(testthat) vs python testing suite examples
