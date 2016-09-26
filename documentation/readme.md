@@ -2,7 +2,8 @@ To provide the user human readable documenation on a functions purpose & mapping
 Within both interpretors a function can be proceeded with a `?` to retrieve the documentation. I.E. `?sum`  
 Lets replicate a very simple base `sum` function:
 
-*R*: 
+**R**:
+ 
 Within R to provide the user this human readable information one traditionally uses the Roxygen2 library.
 ```r
 #' Return the sum of 2 integers 
@@ -13,7 +14,8 @@ add_two_nums <- function(x1, x2) {
 }
 ```
 
-*Python*: 
+**Python**: 
+
 Within Python one achieves function documentation through a docstring 
 ```python
 def add_two_nums(x1, x2):
@@ -21,9 +23,9 @@ def add_two_nums(x1, x2):
     return x1 + x2
 ```
 
-Both Roxygen & Docstrings provide more extensive functionality then this simple example. 
-  See [here](https://github.com/klutometis/roxygen) for additional details on Roxygen. 
-  See [here](https://www.python.org/dev/peps/pep-0257/) for additional details on Docstrings. 
+Both Roxygen & Docstrings provide more extensive functionality then this simple example:
+  * See [here](https://github.com/klutometis/roxygen) for additional details on Roxygen
+  * See [here](https://www.python.org/dev/peps/pep-0257/) for additional details on Docstrings
 
 
 
