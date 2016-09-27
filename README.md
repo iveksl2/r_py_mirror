@@ -3,10 +3,13 @@ This repository contains code snippets and language features within both python 
 with the intent of accelerating the learning of 1 language with a background from the other. 
 The intent of this repository & the goal of all contributors is NOT to start a flame war. (or is it?)
 
+* [data structures](./data_structures)
+* [dataframe operations](./dataframe_operations)
 * [documentation](./documentation)
 * [functional programming](./functional_programming)
 * [metaprogramming](./meta_programming)
 * [non standard evaluation](./non_standard_evaluation)
+* [OOP](./OOP)
 * [reproducible reports](./reproducible_reports)
 * [testing](./testing)
 * [visualization](./visualization)
