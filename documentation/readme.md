@@ -16,7 +16,7 @@ add_two_nums <- function(x1, x2) {
 
 **Python**: 
 
-Within Python one achieves function documentation through a docstring . Docstrings have several [styles and formats](http://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format/24385103#24385103) Choose which you find aesthetically pleasing. For the purpose of symmetry we will use a javadoc notation similar to R. 
+Within Python one achieves function documentation through a docstring . Docstrings have several [styles and formats](http://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format/24385103#24385103). Choose which you find aesthetically pleasing. For the purpose of symmetry we will use a javadoc notation similar to R. 
 
 ```python
 def add_two_nums(x1, x2):
