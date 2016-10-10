@@ -16,10 +16,16 @@ add_two_nums <- function(x1, x2) {
 
 **Python**: 
 
-Within Python one achieves function documentation through a docstring 
+Within Python one achieves function documentation through a docstring . Docstrings have several [styles and formats](http://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format/24385103#24385103) Choose which you find aesthetically pleasing. For the purpose of symmetry we will use a javadoc notation similar to R. 
+
 ```python
 def add_two_nums(x1, x2):
-    """Return the sum of 2 integers; int, int -> int""" 
+    """
+    Return the sum of 2 integers
+    @param x1: numeric. The first number 
+    @param x2: numeric. The second number
+    @return: sum 
+    """ 
     return x1 + x2
 ```
 
