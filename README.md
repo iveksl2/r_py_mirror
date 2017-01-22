@@ -5,6 +5,7 @@ The intent of this repository is NOT to start a flame war. (or is it?)
 
 Anyone can feel free to contribute in any capacity!
 
+* [cheatsheets](./cheatsheets)
 * [data structures](./data_structures)
 * [dataframe operations](./dataframe_operations)
 * [documentation](./documentation)
