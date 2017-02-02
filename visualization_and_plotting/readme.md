@@ -1,6 +1,3 @@
-ggplot & seaborn examples?
-base R plot vs matplotlib?
-
 #R
 ```r
 library(dplyr)
@@ -14,7 +11,7 @@ iris %>%
     coord_flip() + ggtitle('Sepal Length by Species') + 
     ggsave('r_sep_length_by_species.png')
 ```
-[](./r_sep_length_by_species.png)
+![](./r_sep_length_by_species.png =500x500)
 
 #Python
 ```python
@@ -37,4 +34,4 @@ iris.groupby(['Species'])['sepal length (cm)'].mean().plot(kind = 'barh', title 
 plt.savefig('py_sep_length_by_species.png')
 ```
 
-[](./py_sep_length_by_species.png)
+![](./py_sep_length_by_species.png)
