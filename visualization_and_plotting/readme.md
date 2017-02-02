@@ -1,4 +1,4 @@
-#Horizontal Bar Plots
+#Simple horizontal Bar Plots
 ---
 #R
 ```r
