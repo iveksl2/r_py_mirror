@@ -38,3 +38,6 @@ plt.savefig('py_sep_length_by_species.png')
 ```
 
 <img src="py_sep_length_by_species.png" width="500" height="350" />
+
+***
+#### Feel Free to add more comparisons
