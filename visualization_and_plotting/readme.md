@@ -3,6 +3,15 @@ base R plot vs matplotlib?
 
 #R
 ```r
+library(dplyr)
+library(magrittr)
+library(ggplot2)
+
+iris %>%
+    dplyr::group_by(Species) %>%
+    dplyr::summarise(Sepal.Length = mean(Sepal.Length)) %>%
+    ggplot(aes(Species, Sepal.Length)) + geom_bar(stat = 'identity') + 
+    coord_flip() + ggtitle('Sepal Length by Species')
 ```
 
 #Python
