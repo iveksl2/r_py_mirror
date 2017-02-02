@@ -1,3 +1,5 @@
+#Horizontal Bar Plots
+---
 #R
 ```r
 library(dplyr)
