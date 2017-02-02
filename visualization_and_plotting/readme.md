@@ -11,8 +11,10 @@ iris %>%
     dplyr::group_by(Species) %>%
     dplyr::summarise(Sepal.Length = mean(Sepal.Length)) %>%
     ggplot(aes(Species, Sepal.Length)) + geom_bar(stat = 'identity') + 
-    coord_flip() + ggtitle('Sepal Length by Species')
+    coord_flip() + ggtitle('Sepal Length by Species') + 
+    ggsave('r_sep_length_by_species.png')
 ```
+[](./r_sep_length_by_species.png)
 
 #Python
 ```python
@@ -32,5 +34,7 @@ iris['Species'] = iris['Species'].map({
                     2: scikit_iris.target_names[2]  
                   })
 iris.groupby(['Species'])['sepal length (cm)'].mean().plot(kind = 'barh', title = 'Sepal Length by Species')
-plt.savefig('sep_length_by_species.png')
+plt.savefig('py_sep_length_by_species.png')
 ```
+
+[](./py_sep_length_by_species.png)
