@@ -10,7 +10,7 @@ library(ggplot2)
 iris %>%
     dplyr::group_by(Species) %>%
     dplyr::summarise(Sepal.Length = mean(Sepal.Length)) %>%
-    ggplot(aes(Species, Sepal.Length)) + geom_bar(stat = 'identity') + 
+    ggplot2::ggplot(aes(Species, Sepal.Length)) + geom_bar(stat = 'identity') + 
     coord_flip() + ggtitle('Sepal Length by Species') + 
     ggsave('r_sep_length_by_species.png')
 ```
