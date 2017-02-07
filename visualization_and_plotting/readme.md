@@ -21,7 +21,7 @@ iris %>%
 import numpy  as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from   sklearn import datasets
+from sklearn import datasets
 
 scikit_iris  = datasets.load_iris()
 col_names = scikit_iris.feature_names
@@ -34,6 +34,7 @@ iris['Species'] = iris['Species'].map({
                     2: scikit_iris.target_names[2]  
                   })
 iris.groupby(['Species'])['sepal length (cm)'].mean().plot(kind = 'barh', title = 'Sepal Length by Species')
+plt.tight_layout()
 plt.savefig('py_sep_length_by_species.png')
 ```
 
