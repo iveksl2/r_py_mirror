@@ -1,6 +1,5 @@
-ggplot & seaborn examples?
-base R plot vs matplotlib?
-
+#Simple horizontal Bar Plots
+---
 #R
 ```r
 library(dplyr)
@@ -14,7 +13,8 @@ iris %>%
     coord_flip() + ggtitle('Sepal Length by Species') + 
     ggsave('r_sep_length_by_species.png')
 ```
-[](./r_sep_length_by_species.png)
+<img src="r_sep_length_by_species.png" width="500" height="350" />
+
 
 #Python
 ```python
@@ -38,4 +38,7 @@ plt.tight_layout()
 plt.savefig('py_sep_length_by_species.png')
 ```
 
-[](./py_sep_length_by_species.png)
+<img src="py_sep_length_by_species.png" width="500" height="350" />
+
+***
+#### Feel Free to add more comparisons
