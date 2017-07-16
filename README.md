@@ -16,4 +16,4 @@ Anyone can feel free to contribute in any capacity!
 * [reproducible reports](./reproducible_reports)
 * [testing](./testing)
 * [tricks](./tricks)
-* [visualization](./visualization)
+* [visualization_and_plotting](./visualization_and_plotting)
